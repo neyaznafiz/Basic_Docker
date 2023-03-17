@@ -1,0 +1,7 @@
+version: "3"
+services:
+  node-image18:
+    build: .
+    command: node index.js
+    ports:
+     - 5000:5000
